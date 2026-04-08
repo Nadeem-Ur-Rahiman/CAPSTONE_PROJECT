@@ -19,7 +19,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Colors } from '@/constants/Colors';
 
 // In React Native, hardcode the API key for development (use secure storage for production)
-const API_KEY = "AIzaSyDOrCItR_V5KP0oD0jP1OMmTNrnS4Oe2_k";
+const API_KEY = "";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export default function ChatbotScreen() {
